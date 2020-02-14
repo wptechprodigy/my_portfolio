@@ -1,6 +1,6 @@
 import lineargradgen from '../assets/lineargradgen.png';
 import project2 from '../assets/project2.png';
-import project1 from '../assets/project1.png';
+import robofriends from '../assets/robofriends.png';
 import project3 from '../assets/project3.png';
 
 const PROJECTS = [
@@ -34,7 +34,7 @@ const PROJECTS = [
     description:
       'RoboFriends is built using Online REST API, JSON Placeholder, a Fake Online Rest API for Testing and Prototyping Serving ~200M requests per month Powered by JSON Server + LowDB!',
     link: 'https://github.com/wptechprodigy/robo-friends',
-    image: project1,
+    image: robofriends,
   },
 ];
 
