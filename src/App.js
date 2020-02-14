@@ -5,6 +5,10 @@ class App extends Component {
     displayBio: false,
   };
 
+  toggleDisplayBio = () => {
+    this.setState({ displayBio: !this.state.displayBio });
+  };
+
   render() {
     return (
       <div>
@@ -25,8 +29,13 @@ class App extends Component {
               Besides coding, I am a loving father. I love to read, play soccer
               and watch movies!
             </p>
+            <button onClick={this.toggleDisplayBio}>Show less</button>
           </div>
-        ) : null}
+        ) : (
+          <div>
+            <button onClick={this.toggleDisplayBio}>Read more</button>
+          </div>
+        )}
       </div>
     );
   }
