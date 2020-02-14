@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
+import waheedProfile from './assets/waheed-afolabi.png';
 
 class App extends Component {
   state = {
@@ -14,7 +15,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello!</h1>
+        <img
+          src={waheedProfile}
+          alt="Waheed Afolabi"
+          className='profile'
+        />
+        <h1>
+          Hello{' '}
+          <span role="img" aria-label="Waheed Afolabi">
+            👋
+          </span>
+          !
+        </h1>
         <p>My name is Waheed. I'm a software engineer.</p>
         <p>
           I'm always looking forward to working on meaningful
