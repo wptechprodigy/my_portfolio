@@ -10,7 +10,7 @@ class Project extends Component {
         <h3>{title}</h3>
         <img src={image} alt="profile" style={{ width: 250, height: 150 }} />
         <p>{description}</p>
-        <a href={link}>{link}</a>
+        <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
       </div>
     );
   }

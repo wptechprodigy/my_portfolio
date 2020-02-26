@@ -16,7 +16,7 @@ const PROJECTS = [
     id: 2,
     title: 'HackerPlace',
     description:
-      'A place where coding nerds get together that I built with NodeJs, Express, Apollo-client, GraphQL (on the backend) and React (on the frontend)!',
+      'A community built with NodeJs, Express, Apollo-client, GraphQL & React.',
     link: 'https://github.com/wptechprodigy/hackerplace',
     image: project2,
   },
@@ -24,7 +24,7 @@ const PROJECTS = [
     id: 3,
     title: 'Smart Facetingator',
     description:
-      'Smart FaceTingator is a face detector app. Hence the name Smart Face-Investigator. It detects the face in an uploaded file and tells you your rank in the number of users.',
+      'Smart FaceTingator is a face detector app. It detects the face in an uploaded file.',
     link: 'https://github.com/wptechprodigy/smart-facetingator',
     image: project3,
   },
@@ -32,7 +32,7 @@ const PROJECTS = [
     id: 4,
     title: 'Robo Friends',
     description:
-      'RoboFriends is built using Online REST API, JSON Placeholder, a Fake Online Rest API for Testing and Prototyping Serving ~200M requests per month Powered by JSON Server + LowDB!',
+      'RoboFriends is built using Online REST API for Testing and Prototyping.',
     link: 'https://github.com/wptechprodigy/robo-friends',
     image: robofriends,
   },

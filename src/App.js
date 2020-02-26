@@ -15,11 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <img
-          src={waheedProfile}
-          alt="Waheed Afolabi"
-          className='profile'
-        />
+        <img src={waheedProfile} alt="Waheed Afolabi" className="profile" />
         <h1>
           Hello{' '}
           <span role="img" aria-label="Waheed Afolabi">
@@ -29,15 +25,18 @@ class App extends Component {
         </h1>
         <p>My name is Waheed. I'm a software engineer.</p>
         <p>
-          I'm always looking forward to working on meaningful
-          better-life-enhancing projects.
+          I'm always looking forward to working on meaningful projects...and I
+          enjoy learning from others!
         </p>
         {this.state.displayBio ? (
           <div>
             <p>I live in Lagos, Nigeria and code every day.</p>
             <p>
-              My favourite language is Javascript, and I also do Rust as well as
-              GO.
+              My favourite language is Javascript, and I love{' '}
+              <span role="img" aria-label="Waheed Afolabi">
+                💚
+              </span>{' '}
+              Rust, as well as GO.
             </p>
             <p>
               Besides coding, I am a loving father. I love to read, play soccer
